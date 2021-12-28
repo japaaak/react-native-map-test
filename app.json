@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "reactnativemaptest",
+    "slug": "reactnativemaptest",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "reactnativemaptest"
+}
