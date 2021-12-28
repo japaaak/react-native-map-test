@@ -3,9 +3,27 @@
     "name": "reactnativemaptest",
     "slug": "reactnativemaptest",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"]
   },
-  "name": "reactnativemaptest"
+  "name": "reactnativemaptest",
+  "android": {
+    "config": {
+      "googleMaps": {
+        "apiKey": "AIzaSyBZ1IbqT-yYvN8XiU9sF6w5mr3lfu5rQi0"
+      }
+    }
+  },
+  "ios": {
+    "config": {
+      "googleMapsApiKey": "AIzaSyBZ1IbqT-yYvN8XiU9sF6w5mr3lfu5rQi0"
+    }
+  },
+  "plugins": [
+    [
+      "expo-image-picker",
+      {
+        "photosPermission": "The app accesses your photos to let you share them with your company."
+      }
+    ]
+  ]
 }
